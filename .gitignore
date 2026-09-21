@@ -1,0 +1,18 @@
+# Java / Spring Boot
+backend/target/
+*.log
+
+# Node / frontend builds
+frontend/node_modules/
+frontend/dist/
+
+# Local IDE and operating-system files
+.vscode/
+.idea/
+.DS_Store
+
+# Local secrets and environment configuration
+.env
+.env.*
+!.env.example
+application-local.properties
